@@ -22,9 +22,10 @@ public class GitTestingMain {
          * 2. Add and commit the change
          * 3. Create a print statement to show the operation
          * 4. Add and commit the change
-         * 5. Create ONE of the specified branches
-         * 6. Create the function, add/commit, print, add/commit
-         * 7. Merge the new branch with the main branch, then push changes
+         * 5. Push the above commits to GitHub. You will likely need to merge
+         * 6. Create ONE of the specified branches
+         * 7. Create the function, add/commit, print, add/commit
+         * 8. Merge the new branch with the main branch, then push changes
          * Note: you can also create and push branches to GitHub, but let's not worry about that now
          */
         
@@ -45,7 +46,7 @@ public class GitTestingMain {
         System.out.println("a - b - c = " + sub);
         
         // Before you work on the follwing, MAKE SURE YOU PULL FROM GITHUB
-        //  so that your local repo is upto date with the online repo
+        //  so that your local version is upto date with the changes made by others
         
         // create a branch called "parity_check" and create a function called isEven(x).
         //  Then print isEven(a)
